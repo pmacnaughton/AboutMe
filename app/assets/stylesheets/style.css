@@ -3,7 +3,7 @@ body {
   color: white;
 	
   font-family: 'Lato', sans-serif;
-  background: url('download.jpg');
+  background: url('Boston2.jpg');
   /* Full Page Background Receipe */
   background-size: cover;
   background-position: center;
@@ -11,18 +11,20 @@ body {
 }
 
 .container {
-  width: 550px;
-  margin: 40px;
-  background: rgba(0,0,0,0.5);
-  padding: 15px;
+  width: 800px;
+  margin: 20px auto 90px auto;
+  background: rgba(0,0,0,0);
+  padding: 10px;
   border-radius: 20px;
+  text-align: center;
 }
 
+
+
 h1{
- 	font-family: 'Rokkitt', serif;
-	font-size: 40px;
-	margin-bottom: -40px;
-	margin-top: -20px;
+ 	font-family: 'Rokkitt', sans-serif;
+	font-size: 80px;
+	margin: 0,0,0,0;
   line-height: 2;
 }
 
@@ -39,3 +41,21 @@ a {
 	color: #BFE35B;
 	text-decoration: none;
 }
+
+/*Tab Styles*/
+
+.tabset, .tab-content, .tab-pane, .tabbable {
+    background-color: #fff;
+    color: black;
+    padding:5px
+    height:100%;
+}
+
+.nav-tabs > li > a{
+  background-color: #fff !important;
+    border: medium none;
+    border-radius: 0;
+    color: black;
+}
+
+/*End Tab Styles*/

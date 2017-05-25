@@ -2,7 +2,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>About Anna</title>
+		<title>About Piers</title>
 		<link href="https://fonts.googleapis.com/css?family=Lato:400,900|Rokkitt:400,700" rel="stylesheet">
 		<%= stylesheet_link_tag "application.css" %>
 	</head>
@@ -10,11 +10,27 @@
 	<body>
 
 		<div class="container">
-			<!-- START HERE --> 
-			<h1>Piers MacNaughton</h1>
-			<h2>About Me</h2>
-			<!-- END HERE --> 
+			<h1><b>Piers MacNaughton</b></h1>
+
 		</div><!-- .container --> 
+
+		<div>
+  		<!-- Nav tabs -->
+		  <ul class="nav nav-tabs nav-justified" role="tablist">
+		    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">About Me</a></li>
+		    <li role="presentation"><a href="#research" aria-controls="research" role="tab" data-toggle="tab">Research</a></li>
+		    <li role="presentation"><a href="#press" aria-controls="press" role="tab" data-toggle="tab">Press</a></li>
+		    <li role="presentation"><a href="#contact" aria-controls="contact" role="tab" data-toggle="tab">Contact</a></li>
+		  </ul>
+
+		  <!-- Tab panes -->
+		  <div class="tab-content">
+		    <div role="tabpanel" class="tab-pane active" id="home">...</div>
+		    <div role="tabpanel" class="tab-pane" id="profile">...</div>
+		    <div role="tabpanel" class="tab-pane" id="messages">...</div>
+		    <div role="tabpanel" class="tab-pane" id="settings">...</div>
+		  </div>
+	</div><!-- .Tabs -->
 
 	</body>
 </html>
